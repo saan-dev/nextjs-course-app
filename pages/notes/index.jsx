@@ -8,7 +8,7 @@ export default () => {
 
   return (
     <div sx={{variant: 'containers.page'}}>
-      <h1>My Notes</h1>
+      <h1>My Notes Are Here</h1>
 
       <div sx={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap'}}>
         {notes.map(note => (
